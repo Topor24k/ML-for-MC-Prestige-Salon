@@ -1,0 +1,113 @@
+{
+  "notice": "Prices may vary depending on service complexity, hair volume, and texture.",
+  "sections": [
+    {
+      "id": "hair_services",
+      "name": "Hair Services",
+      "groups": [
+        {
+          "name": "Color and Styling",
+          "items": [
+            {"name": "Color", "prices": {"short": 799, "medium": 999, "long": 1499}},
+            {"name": "Rootings", "prices": {"regular": 499}},
+            {"name": "Balayage", "prices": {"short": 1499, "medium": 1999, "long": 2499}},
+            {"name": "Hair Cut / Hair Iron", "prices": {"regular": 150}},
+            {"name": "Shampoo / Blowdry / Hair Cut", "prices": {"regular": 200}}
+          ]
+        },
+        {
+          "name": "Rebonding",
+          "items": [
+            {"name": "Traditional Rebond", "aliases": ["Rebond"], "prices": {"short": 799, "medium": 999, "long": 1999}},
+            {"name": "L'Oreal Rebond", "aliases": ["Loreal Rebond"], "prices": {"short": 2499, "medium": 2999, "long": 3499}},
+            {"name": "Organic Rebond", "prices": {"short": 1299, "medium": 1699, "long": 1999}}
+          ]
+        },
+        {
+          "name": "Treatments",
+          "items": [
+            {"name": "Scalp Detox", "prices": {"short": 599, "medium": 799, "long": 999}},
+            {"name": "Hair Hydration Regular", "prices": {"short": 499, "medium": 699, "long": 999}},
+            {"name": "Hair Hydration Delux", "aliases": ["Hair Hydration Deluxe"], "prices": {"short": 799, "medium": 999, "long": 1499}},
+            {"name": "Hair Brazilian Botox", "aliases": ["Brazilian Botox"], "prices": {"short": 499, "medium": 699, "long": 999}},
+            {"name": "Hair Reborn Treatment", "aliases": ["Reborn Treatment"], "prices": {"short": 699, "medium": 999, "long": 1499}},
+            {"name": "Cystiene Treatment", "aliases": ["Cysteine Treatment"], "prices": {"short": 1999, "medium": 2499, "long": 2999}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nail_services",
+      "name": "Nail Services",
+      "groups": [
+        {
+          "name": "Individual",
+          "items": [
+            {"name": "Manicure", "prices": {"regular": 120}},
+            {"name": "Pedicure", "prices": {"regular": 140}},
+            {"name": "Manicure + Gel Polish", "prices": {"regular": 320}},
+            {"name": "Pedicure + Gel Polish", "prices": {"regular": 350}},
+            {"name": "Manicure + Extension + Gel Polish", "prices": {"regular": 520}},
+            {"name": "Pedicure + Extension + Gel Polish", "prices": {"regular": 550}},
+            {"name": "Foot Spa Classic", "prices": {"regular": 200}},
+            {"name": "Foot Spa Premium", "prices": {"regular": 250}}
+          ]
+        },
+        {
+          "name": "Bundle Promos",
+          "items": [
+            {"name": "Manicure + Pedicure + Foot Spa Classic", "prices": {"regular": 450}},
+            {"name": "Manicure + Pedicure + Foot Spa Premium", "prices": {"regular": 450}},
+            {"name": "Manicure + Gel Polish + Pedicure + Gel Polish + Foot Spa Premium", "prices": {"regular": 800}},
+            {"name": "Manicure + Extension + Gel Polish + Pedicure + Extension + Gel Polish + Foot Spa Premium", "prices": {"regular": 1000}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "promo_color",
+      "name": "Promo Packages - Color",
+      "groups": [
+        {
+          "name": "Color Promos",
+          "items": [
+            {"name": "Color + Brazilian Botox", "prices": {"short": 999, "medium": 1299, "long": 1499}},
+            {"name": "Color + Hair Reborn Treatment", "prices": {"short": 1299, "medium": 1699, "long": 1999}},
+            {"name": "Color + Cystiene", "aliases": ["Color + Cysteine"], "prices": {"short": 2699, "medium": 2999, "long": 3299}},
+            {"name": "Color + Hair Hydration", "prices": {"short": 799, "medium": 999, "long": 1299}},
+            {"name": "Balayage + Hair Reborn Treatment", "prices": {"short": 1999, "medium": 2499, "long": 2999}},
+            {"name": "Balayage + Cysteine", "aliases": ["Balayage + Cystiene"], "prices": {"short": 3499, "medium": 3799, "long": 4299}}
+          ]
+        },
+        {
+          "name": "Add-Ons",
+          "items": [
+            {"name": "Rebond Sensitive Hair", "prices": {"short": 200, "medium": 300, "long": 500}},
+            {"name": "Bleached Sensitive Hair", "prices": {"short": 300, "medium": 400, "long": 500}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "promo_rebond",
+      "name": "Promo Packages - Rebond",
+      "groups": [
+        {
+          "name": "Rebond Promos",
+          "items": [
+            {"name": "Rebond + Haircut + Hair Reborn Treatment", "prices": {"short": 999, "medium": 1799, "long": 2499}},
+            {"name": "Rebond + Cystiene", "aliases": ["Rebond + Cysteine"], "prices": {"short": 2799, "medium": 3499, "long": 3999}},
+            {"name": "L'Oreal Rebond + Cystiene", "aliases": ["Loreal Rebond + Cysteine"], "prices": {"short": 4299, "medium": 4799, "long": 4999}},
+            {"name": "L'Oreal Rebond + Hair Reborn Treatment", "aliases": ["Loreal Rebond + Hair Reborn Treatment"], "prices": {"short": 2999, "medium": 3499, "long": 3999}},
+            {"name": "L'Oreal Rebond + Color + Hair Reborn Treatment", "aliases": ["Loreal Rebond + Color + Hair Reborn Treatment"], "prices": {"short": 2999, "medium": 3499, "long": 3999}},
+            {"name": "Rebond + Color + Hair Reborn Treatment", "prices": {"short": 2200, "medium": 2799, "long": 2999}},
+            {"name": "Rebond + Color + Cystiene", "aliases": ["Rebond + Color + Cysteine"], "prices": {"short": 3499, "medium": 3999, "long": 4299}},
+            {"name": "L'Oreal Rebond + Color + Cystiene", "aliases": ["Loreal Rebond + Color + Cysteine"], "prices": {"short": 4200, "medium": 4699, "long": 4999}},
+            {"name": "Rebond + Color + Brazilian Botox", "prices": {"short": 1999, "medium": 2499, "long": 2799}},
+            {"name": "L'Oreal Rebond + Color + Brazilian Botox", "aliases": ["Loreal Rebond + Color + Brazilian Botox"], "prices": {"short": 3599, "medium": 3799, "long": 3999}}
+          ]
+        }
+      ]
+    }
+  ]
+}

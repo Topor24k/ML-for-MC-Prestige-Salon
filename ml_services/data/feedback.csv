@@ -1,0 +1,11 @@
+feedback_id,appointment_id,staff_id,service_name,feedback_text,feedback_rating
+1,101,2,Rebond,Super happy with my hair! Sobrang ganda ng result.,5
+2,102,1,Color,The color faded after 2 weeks. Not satisfied.,2
+3,103,3,Hair Cut,Quick and clean cut. Will come back!,4
+4,104,2,Balayage,Medyo matagal yung wait pero okay naman yung result.,3
+5,105,1,Nail Care,Ang ganda ng nails ko! Very detailed.,5
+6,106,3,Rebond,Hindi maganda yung rebond. Kulot pa rin after.,1
+7,107,2,Hair Treatment,Hair feels so soft and healthy now. Thank you!,5
+8,108,1,Cysteine,Good treatment. A bit pricey but worth it.,4
+9,109,3,Color,The stylist was very professional and friendly.,5
+10,110,2,Threading,Masakit pero okay. Normal naman yun.,3
